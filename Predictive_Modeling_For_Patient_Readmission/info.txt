@@ -1,0 +1,6 @@
+R: Predictive Modeling for Patient Readmission
+Description: Analyze hospital patient data to predict which patients are likely to be readmitted within 30 days. Use R for data preprocessing, visualization, and building predictive models (e.g., logistic regression or decision trees).
+
+Skills Demonstrated: Data visualization, statistical modeling, predictive analytics.
+
+GitHub Placeholder: r-readmission-prediction
