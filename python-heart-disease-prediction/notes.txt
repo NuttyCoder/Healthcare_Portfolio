@@ -46,3 +46,105 @@ result = predict_func(patient_data)
 This project showcases enterprise-level data science skills with healthcare domain expertise, 
 making it perfect for demonstrating your capabilities in medical AI applications, model deployment, 
 and production machine learning systems.
+Project: Heart Disease Prediction with Python
+Description
+Use the UCI Heart Disease dataset to build a machine learning model that predicts whether a patient is at risk of heart disease. The project covers the full workflow: data loading, exploratory data analysis (EDA), data cleaning, feature engineering, model training (Logistic Regression, Random Forest, k-Nearest Neighbors), and model evaluation.
+
+Dataset
+Source: UCI Machine Learning Repository (303 patients, 14 features)
+
+Features include age, sex, chest pain type, resting blood pressure, cholesterol, fasting blood sugar, resting ECG results, max heart rate, exercise-induced angina, ST depression, slope, number of vessels, thalassemia, and target (presence or absence of heart disease).
+
+Skills Demonstrated
+Data loading and preprocessing with pandas
+
+Exploratory Data Analysis (visualization with matplotlib/seaborn)
+
+Handling missing values and outliers
+
+Feature engineering and selection
+
+Implementation of classification models using scikit-learn
+
+Model evaluation metrics: accuracy, precision, recall, ROC-AUC
+
+Interpretation and visualization of results
+
+Suggested Project Structure on GitHub
+text
+python-heart-disease-prediction/
+│
+├── data/
+│   └── heart.csv              # Dataset file (or link to dataset)
+│
+├── notebooks/
+│   └── heart_disease_analysis.ipynb  # Jupyter notebook with full analysis
+│
+├── scripts/
+│   ├── data_preprocessing.py  # Python script for cleaning and feature engineering
+│   ├── model_training.py       # Script to train and evaluate models
+│   └── utils.py                # Helper functions
+│
+├── README.md                  # Project overview, instructions, and summary
+└── requirements.txt           # List of Python dependencies
+Workflow Outline
+Data Loading
+
+Load CSV using pandas
+
+Display first few rows and data summary
+
+Exploratory Data Analysis
+
+Summary statistics (mean, std, min, max)
+
+Visualize distributions of continuous variables (age, cholesterol, max heart rate)
+
+Visualize categorical variables (sex, chest pain type)
+
+Correlation heatmap to identify feature relationships
+
+Data Cleaning
+
+Check for missing values and duplicates
+
+Handle outliers if present
+
+Convert categorical variables to numeric or dummy variables
+
+Feature Engineering
+
+Create new features if relevant (e.g., age groups)
+
+Select important features based on correlation or feature importance
+
+Modeling
+
+Split data into training and testing sets
+
+Train Logistic Regression, Random Forest, and k-Nearest Neighbors classifiers
+
+Tune hyperparameters using cross-validation
+
+Evaluation
+
+Calculate accuracy, precision, recall, F1-score, and ROC-AUC
+
+Plot ROC curves for each model
+
+Select best-performing model and interpret results
+
+Conclusion
+
+Summarize findings and potential next steps
+
+References & Resources
+UCI Heart Disease Dataset: https://archive.ics.uci.edu/ml/datasets/heart+Disease
+
+Kaggle example notebooks for inspiration:
+
+https://www.kaggle.com/code/janeloh/heart-disease-prediction-with-machine-learning
+
+https://www.kaggle.com/code/therval/tutorial-feature-selection-with-heart-disease
+
+YouTube tutorial walkthrough: https://www.youtube.com/watch?v=5OjZTHMvOGM
